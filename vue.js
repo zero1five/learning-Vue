@@ -16,5 +16,18 @@ new Vue({
             deep: true   /* 深度监控 可以监控list对象下的所有 */
         }
     }
-
 })
+
+
+import Vue from 'Vue'
+import Vuex from 'vuex'
+
+// Vuex 的使用  
+
+Vue.use(Vuex)
+
+let store = new Vuex.Store({
+    
+})
+
+export default store
